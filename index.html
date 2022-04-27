@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+	 <nav>
+      <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="images/logo.png" alt="" class="logo">
+        </a>
+      <ul>
+        <li><a class="active" href="#">Inicio</a></li>
+        <li><a href="#">Salón</a></li>
+        <li><a href="#">Colegio</a></li>
+        <li><a href="#">Región</a></li>
+        <li><a href="#">Tecnologia</a></li>
+        <li><a href="#">Farándula</a></li>
+        <li><a href="#">Deportes</a></li>
+        <li><a href="#">Juegos</a></li>
+      </ul>
+    </nav>
+
+    <main>
+    <section>
+    	
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	<br>
+    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos placeat officia
+    	 quas voluptate tenetur excepturi eligendi porro ipsum nihil omnis. Illum id sequi,
+    	 nesciunt, placeat maxime repellendus sapiente sint sit.</p>
+
+
+    </section>
+
+    <aside>
+    	
+		<h5 id="fecha" ></h5>
+		<h5>Cúcuta</h5>
+
+    	<script>
+			date = new Date();
+			year = date.getFullYear();
+			month = date.getMonth() + 1;
+			if (month == 4) {
+				month = "Abril"
+			}
+			day = date.getDate();
+			document.getElementById("fecha").innerHTML = day + " de " + month + " de " + year;
+		</script>
+
+    </aside>
+    </main>
+</body>
+</html>
