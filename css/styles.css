@@ -199,3 +199,22 @@ ul.slider li:target {
 
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    min-width: 1124px;
+    width: 100%;
+    background: rgb(115, 181, 242);
+    height: 500px;
+}
+
+footer .datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+
