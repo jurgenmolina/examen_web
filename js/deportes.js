@@ -7,15 +7,25 @@ var deportes = document.querySelector('#deportes')
 
 				for(let valor of data2){
 
-					
+					if (valor.id === 6) {
+ 						deportes.innerHTML += `
+                	
 
-                deportes.innerHTML += `
+               		
+          				<p id="titulo"><a href="noticia6.html">${ valor.titulo}</a></p>
+                
+                `
+					}else{
+						 deportes.innerHTML += `
                 	
 
                		
           		<p id="titulo">${ valor.titulo}</p>
                 
                 `
+					}
+
+               
             }	
 
 
