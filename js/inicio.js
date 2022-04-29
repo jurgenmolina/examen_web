@@ -21,13 +21,13 @@ var container = document.querySelector('#container')
 
 					<ul class="slider">
 		              <li id="slide1">
-		                <img src="${ data[1].img }"/>
+		                <img src="${ data[0].img }"/>
 		              </li>
 		              <li id="slide2">
-		                <img src="${ data[2].img }"/>
+		                <img src="${ data[1].img }"/>
 		              </li>
 		              <li id="slide3">
-		                <img src="${ data[3].img }"/>
+		                <img src="${ data[2].img }"/>
 		              </li>
 		            </ul>
 		            
