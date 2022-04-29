@@ -93,13 +93,25 @@ var container = document.querySelector('#container')
 				    	break;
 				 	}
 
-                deportes.innerHTML += `
+				 	if (valor.id === 6) {
+				 		 deportes.innerHTML += `
+                	
+
+               		
+          		<p id="titulo"><a href="noticia6.html">${ valor.titulo}</a></p>
+                
+                `
+				 	}else{
+				 		 deportes.innerHTML += `
                 	
 
                		
           		<p id="titulo">${ valor.titulo}</p>
                 
                 `
+				 	}
+
+               
             }	
 
 
